@@ -1,0 +1,24 @@
+N = Program, Statement, StatementList, DeclarationStatement, Assignment, Input, Output, Conditional, Loop, Comment, Type, Expression, Term,  BoolConstant, Operator,NonZeroDigit, Digit
+T = int, bool, char, string, array, <, >, [, ], read, print, if, else, while, //, ##, Identifier, IntConstant, CharConstant StringConst,, +, -, *, /, %, ==, !=, <, <=, >, >=, =, &&, ||, {, }, (, ), ;, ,
+P =
+start
+Program->Statement|StatementList
+Statement->DeclarationStatement|Assignment|Input|Output|Conditional|Loop|Comment
+StatementList->Statement|Statement ; StatementList
+DeclarationStatement->Type Identifier [ = Expression ] ;
+Assignment->Type Identifier = Expression ;
+Input->read ( Identifier { , Identifier } ) ;
+Output->print ( Expression { , Expression } ) ;
+Conditional->if ( Expression ) { Program } [ else { Program } ]
+Loop->while ( Expression ) { Program }
+Comment->//{string}| ##{string}
+Type->int|bool|char|string|array<Type>[IntConstant]
+Expression->Term { Operator Term }
+Term->Identifier|IntConstant|StringConst|BoolConstant|( Expression )
+IntConstant->+(NonZeroDigit{Digit})|-(NonZeroDigit{Digit})| 0
+BoolConstant->true|false
+Operator->+|-|*|/|%|==|!=|<|<=|>|>=|=|&&|||
+NonZeroDigit->1|2|3|4|5|6|7|8|9
+Digit->0|1|2|3|4|5|6|7|8|9
+end
+S0 = Program
