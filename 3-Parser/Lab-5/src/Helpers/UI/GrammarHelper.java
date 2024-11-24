@@ -63,9 +63,14 @@ public class GrammarHelper {
                 case 5:
                     System.out.print("Enter the non-terminal: ");
                     String nonterminal = scanner.nextLine();
-                    System.out.println("P0 = " + grammar.getProductionsFor(nonterminal)
-                            .stream()
-                            .collect(Collectors.joining(" | ")) + "\n");
+                    if (grammar.getNonterminals().contains(nonterminal)) {
+                        System.out.println("P0 = " + grammar.getProductionsFor(nonterminal)
+                                .stream()
+                                .collect(Collectors.joining(" | ")) + "\n");
+                    }
+                    else {
+                        System.out.println(nonterminal+" is not an existing non-terminal");
+                    }
                     break;
                 case 6: {
                     System.out.println(grammar.isCFG());
