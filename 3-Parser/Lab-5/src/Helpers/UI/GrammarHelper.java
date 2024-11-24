@@ -2,6 +2,7 @@ package Helpers.UI;
 
 import Components.Grammar;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
@@ -37,8 +38,15 @@ public class GrammarHelper {
                 case 1:
                     System.out.print("Enter the path: ");
                     String newFilepath = scanner.nextLine();
-                    this.grammar = new Grammar(newFilepath);
-                    break;
+                    try {
+                        this.grammar = new Grammar(newFilepath);
+                    }
+                    catch (RuntimeException fileNotFoundException) {
+                        System.out.println("File not found");
+                    }
+                    finally {
+                        break;
+                    }
                 case 2:
                     System.out.println("N = " + grammar.getNonterminals()
                             .stream()
