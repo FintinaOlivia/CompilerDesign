@@ -4,6 +4,7 @@ import Assets.Constants;
 import Components.FiniteAutomaton;
 import Components.Grammar;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class GeneralUI {
@@ -27,21 +28,27 @@ public class GeneralUI {
         while (option != 0) {
             printMenu();
             System.out.print("Choose an option: ");
-            option = scanner.nextInt();
-            scanner.nextLine();
+            try {
+                option = scanner.nextInt();
+                scanner.nextLine();
 
-            switch (option) {
-                case 1:
-                    finiteAutomaton.startMenu();
-                    break;
-                case 2:
-                    grammarHelper.startMenu();
-                    break;
-                case 0:
-                    System.out.println("Exiting...");
-                    break;
-                default:
-                    System.out.println("Invalid option. Please try again.");
+                switch (option) {
+                    case 1:
+                        finiteAutomaton.startMenu();
+                        break;
+                    case 2:
+                        grammarHelper.startMenu();
+                        break;
+                    case 0:
+                        System.out.println("Exiting...");
+                        break;
+                    default:
+                        System.out.println("Invalid option. Please try again.");
+                }
+            }
+            catch (InputMismatchException e) {
+                System.out.println("Invalid option. Please try again.");
+                scanner.nextLine();
             }
         }
     }
