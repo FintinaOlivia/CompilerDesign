@@ -1,6 +1,6 @@
 package Helpers.UI;
 
-import Components.FiniteAutomaton;
+import Components.FA.FiniteAutomaton;
 import DataStructures.Pair;
 
 import java.util.Map;

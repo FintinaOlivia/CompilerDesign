@@ -1,0 +1,2 @@
+ERROR at state 0 - before symbol a
+State 0, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{abC, 2}, {aB, 3}, {S, 1}]

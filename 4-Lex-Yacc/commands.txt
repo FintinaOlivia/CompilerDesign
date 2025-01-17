@@ -1,0 +1,10 @@
+//this file contains the necessary commands to run bison and flex, but
+//ALSO to store the files in specific destinations, WHICH ARE NOT MANDATORY!!
+
+bison -d -v LanguageSpecific/lang.y -o LanguageSpecific/PostCompilation/lang.tab.c
+flex LanguageSpecific/lang.lxi
+mv lex.yy.c LanguageSpecific/PostCompilation/lex.yy.c
+cd LanguageSpecific/PostCompilation
+gcc lex.yy.c lang.tab.c -o ../../parser
+cd ../..
+./parser < SourceFiles/p2.ubb

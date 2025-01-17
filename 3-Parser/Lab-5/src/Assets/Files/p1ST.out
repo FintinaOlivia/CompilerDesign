@@ -1,6 +1,6 @@
 Constants Table
-{ elements = [[], ["The maximum number is the first one."]], size = 2 }
+{ elements = [[0], []], size = 2 }
 
 Identifiers Table
-{ elements = [[], []], size = 2 }
+{ elements = [[], [a], [b], [c]], size = 4 }
 

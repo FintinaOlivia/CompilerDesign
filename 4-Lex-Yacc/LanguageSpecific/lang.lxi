@@ -1,0 +1,58 @@
+%{
+#include "lang.tab.h" // Required for YACC token declarations
+%}
+
+%%
+\n                      ++yylineno; // Increment line number
+"+"             return PLUS;
+"-"             return MINUS;
+"*"             return MULTIPLY;
+"/"             return DIVIDE;
+"<"             return LT;
+"<="            return LE;
+">"             return GT;
+">="            return GE;
+"=="            return EQ;
+"!="            return NE;
+"="             return ASSIGN;
+"%"             return MOD;
+"<>"            return NE;
+
+","             return COMMA;
+"."             return DOT;
+"("             return LPAREN;
+")"             return RPAREN;
+"["             return LBRACKET;
+"]"             return RBRACKET;
+"{"             return LACCOLADE;
+"}"             return RACCOLADE;
+":"             return COLON;
+";"             return SEMICOLON;
+"|"             return BLOCK;
+
+"int"           return INT;
+"char"          return CHAR;
+"string"        return STRING;
+"if"            return IF;
+"else"          return ELSE;
+"while"         return WHILE;
+"for"           return FOR;
+"return"        return RETURN;
+"read"          return READ;
+"print"         return PRINT;
+"void"          return VOID;
+"and"           return AND;
+"or"            return OR;
+"not"           return NOT;
+
+[A-Za-z_][A-Za-z0-9_]*  return IDENTIFIER; // Identifiers
+[0-9]+                  return INTEGER_CONST; // Integer constants
+'"'([^"]|\\")*'"'       return STRING_CONST; // String constants
+\'[A-Za-z0-9]\'         return CHAR_CONST;   // Character constants
+
+[ \t\n]+                ; // Skip whitespace
+\r                      ; // Skip carriage return
+.                       return yytext[0]; // Return any other character as its ASCII value
+
+%%
+int yywrap() { return 1; }

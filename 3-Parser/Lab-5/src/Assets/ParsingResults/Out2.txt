@@ -1,0 +1,394 @@
+ERROR at state 29 - before symbol ;
+State 29, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 48}]
+ERROR at state 31 - before symbol ;
+State 31, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 51}]
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 29 - before symbol ;
+State 29, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 48}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 32 - before symbol ;
+State 32, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 53}]
+ERROR at state 90 - before symbol }
+State 90, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{;, 102}]
+ERROR at state 38 - before symbol }
+State 38, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{>=, 71}, {%, 65}, {*, 63}, {+, 61}, {-, 62}, {/, 64}, {;, 60}, {!=, 67}, {<, 68}, {=, 72}, {>, 70}, {Operator, 59}, {&&, 73}, {Expression', 58}, {<=, 69}, {==, 66}]
+ERROR at state 38 - before symbol }
+State 38, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{>=, 71}, {%, 65}, {*, 63}, {+, 61}, {-, 62}, {/, 64}, {;, 60}, {!=, 67}, {<, 68}, {=, 72}, {>, 70}, {Operator, 59}, {&&, 73}, {Expression', 58}, {<=, 69}, {==, 66}]
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 41 - before symbol }
+State 41, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{;, 76}]
+ERROR at state 38 - before symbol }
+State 38, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{>=, 71}, {%, 65}, {*, 63}, {+, 61}, {-, 62}, {/, 64}, {;, 60}, {!=, 67}, {<, 68}, {=, 72}, {>, 70}, {Operator, 59}, {&&, 73}, {Expression', 58}, {<=, 69}, {==, 66}]
+ERROR at state 38 - before symbol {
+State 38, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{>=, 71}, {%, 65}, {*, 63}, {+, 61}, {-, 62}, {/, 64}, {;, 60}, {!=, 67}, {<, 68}, {=, 72}, {>, 70}, {Operator, 59}, {&&, 73}, {Expression', 58}, {<=, 69}, {==, 66}]
+ERROR at state 58 - before symbol int
+State 58, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{false, 47}, {BoolConstant, 41}, {true, 46}, {IntConstant, 39}, {CONSTANT, 40}, {(, 42}, {+, 43}, {-, 44}, {0, 45}, {IDENTIFIER, 38}, {Term, 98}]
+ERROR at state 0 - before symbol int
+State 0, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{~, 3}, {Program, 1}, {CompoundStatement, 2}]
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 38 - before symbol }
+State 38, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{>=, 71}, {%, 65}, {*, 63}, {+, 61}, {-, 62}, {/, 64}, {;, 60}, {!=, 67}, {<, 68}, {=, 72}, {>, 70}, {Operator, 59}, {&&, 73}, {Expression', 58}, {<=, 69}, {==, 66}]
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 38 - before symbol }
+State 38, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{>=, 71}, {%, 65}, {*, 63}, {+, 61}, {-, 62}, {/, 64}, {;, 60}, {!=, 67}, {<, 68}, {=, 72}, {>, 70}, {Operator, 59}, {&&, 73}, {Expression', 58}, {<=, 69}, {==, 66}]
+Conflicts in paradise, the algorithm cannot continue like this.
+ACCEPTED
+Production strings: [Program -> [CompoundStatement], CompoundStatement -> [{, StatementList, }], StatementList -> [IDENTIFIER, ;]]
+Production number: [14, 15, 66]
+The output tree: 
+Index 0, Info: Program, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: CompoundStatement, Left Child: 2, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: {, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: StatementList, Left Child: 4, Right Child: 6, Parent: 1, Level: 2
+Index 6, Info: }, Left Child: -1, Right Child: -1, Parent: 1, Level: 2
+Index 4, Info: IDENTIFIER, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: ;, Left Child: -1, Right Child: -1, Parent: 3, Level: 3
+ACCEPTED
+Production strings: [Program -> [CompoundStatement], CompoundStatement -> [{, StatementList, }], StatementList -> [IDENTIFIER, =, CONSTANT, ;]]
+Production number: [14, 15, 66]
+The output tree: 
+Index 0, Info: Program, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: CompoundStatement, Left Child: 2, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: {, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: StatementList, Left Child: 4, Right Child: 5, Parent: 1, Level: 2
+Index 5, Info: }, Left Child: -1, Right Child: -1, Parent: 1, Level: 2
+Index 4, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 3, Level: 3
+ERROR at state 38 - before symbol }
+State 38, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{>=, 73}, {%, 67}, {*, 65}, {+, 63}, {-, 64}, {/, 66}, {;, 62}, {!=, 69}, {<, 70}, {=, 74}, {>, 72}, {Operator, 61}, {&&, 75}, {Expression', 60}, {<=, 71}, {==, 68}]
+Conflicts in paradise, the algorithm cannot continue like this.
+ACCEPTED
+Production strings: [Program -> [CompoundStatement], CompoundStatement -> [{, StatementList, }], StatementList -> [Type, IDENTIFIER, =, CONSTANT, ;], Type -> [int]]
+Production number: [14, 15, 65, 56]
+The output tree: 
+Index 0, Info: Program, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: CompoundStatement, Left Child: 2, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: {, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: StatementList, Left Child: 4, Right Child: 7, Parent: 1, Level: 2
+Index 7, Info: }, Left Child: -1, Right Child: -1, Parent: 1, Level: 2
+Index 4, Info: Type, Left Child: 5, Right Child: 6, Parent: 3, Level: 3
+Index 6, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 3, Level: 3
+Index 5, Info: int, Left Child: -1, Right Child: -1, Parent: 4, Level: 4
+ACCEPTED
+Production strings: [Program -> [CompoundStatement], CompoundStatement -> [{, StatementList, }], StatementList -> [Type, IDENTIFIER, =, CONSTANT, ;], Type -> [int]]
+Production number: [14, 15, 65, 56]
+The output tree: 
+Index 0, Info: Program, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: CompoundStatement, Left Child: 2, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: {, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: StatementList, Left Child: 4, Right Child: 7, Parent: 1, Level: 2
+Index 7, Info: }, Left Child: -1, Right Child: -1, Parent: 1, Level: 2
+Index 4, Info: Type, Left Child: 5, Right Child: 6, Parent: 3, Level: 3
+Index 6, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 3, Level: 3
+Index 5, Info: int, Left Child: -1, Right Child: -1, Parent: 4, Level: 4
+ACCEPTED
+Production strings: [Program -> [CompoundStatement], CompoundStatement -> [{, StatementList, }], StatementList -> [Type, IDENTIFIER, =, CONSTANT, ;], Type -> [int]]
+Production number: [14, 15, 65, 56]
+The output tree: 
+Index 0, Info: Program, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: CompoundStatement, Left Child: 2, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: {, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: StatementList, Left Child: 4, Right Child: 7, Parent: 1, Level: 2
+Index 7, Info: }, Left Child: -1, Right Child: -1, Parent: 1, Level: 2
+Index 4, Info: Type, Left Child: 5, Right Child: 6, Parent: 3, Level: 3
+Index 6, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 3, Level: 3
+Index 5, Info: int, Left Child: -1, Right Child: -1, Parent: 4, Level: 4
+ACCEPTED
+Production strings: [Program -> [CompoundStatement], CompoundStatement -> [{, StatementList, }], StatementList -> [Type, IDENTIFIER, =, CONSTANT, ;], Type -> [int]]
+Production number: [14, 15, 65, 56]
+The output tree: 
+Index 0, Info: Program, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: CompoundStatement, Left Child: 2, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: {, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: StatementList, Left Child: 4, Right Child: 7, Parent: 1, Level: 2
+Index 7, Info: }, Left Child: -1, Right Child: -1, Parent: 1, Level: 2
+Index 4, Info: Type, Left Child: 5, Right Child: 6, Parent: 3, Level: 3
+Index 6, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 3, Level: 3
+Index 5, Info: int, Left Child: -1, Right Child: -1, Parent: 4, Level: 4
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 5 - before symbol int
+State 5, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{;, 30}, {StatementList', 29}]
+ERROR at state 30 - before symbol read
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 12}, {if(, 19}, {array, 27}, {bool, 24}, {Comment, 13}, {IDENTIFIER, 15}, {while(, 20}, {Reassignment, 8}, {Type, 14}, {char, 25}, {Conditional, 11}, {read(, 17}, {##{string}, 22}, {Input, 9}, {int, 23}, {Statement, 30}, {string, 26}, {Assignment, 7}, {CONSTANT, 16}, {//{string}, 21}, {print(, 18}, {DeclarationStatement, 6}, {Output, 10}, {StatementList', 50}]
+ERROR at state 30 - before symbol read
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 12}, {if(, 19}, {array, 27}, {bool, 24}, {Comment, 13}, {IDENTIFIER, 15}, {while(, 20}, {Reassignment, 8}, {Type, 14}, {char, 25}, {Conditional, 11}, {read(, 17}, {##{string}, 22}, {Input, 9}, {int, 23}, {Statement, 30}, {string, 26}, {Assignment, 7}, {CONSTANT, 16}, {//{string}, 21}, {print(, 18}, {DeclarationStatement, 6}, {Output, 10}, {StatementList', 50}]
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 31 - before symbol read
+State 31, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Comment, 13}, {bool, 26}, {array, 28}, {IDENTIFIER, 15}, {Loop, 12}, {Conditional, 11}, {Reassignment, 8}, {while(Expression)Program, 20}, {Type, 16}, {char, 27}, {return, 24}, {Input, 9}, {if(Expression)Program, 19}, {string, 22}, {read(IDENTIFIER{,IDENTIFIER}), 17}, {//, 21}, {ReturnStatement, 14}, {int, 25}, {print(Expression{,Expression}), 18}, {Assignment, 7}, {Output, 10}, {StatementList', 42}, {DeclarationStatement, 6}, {##, 23}, {Statement, 31}]
+ERROR at state 33 - before symbol int
+State 33, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{;, 63}]
+ERROR at state 29 - before symbol ;
+State 29, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 49}]
+ERROR at state 5 - before symbol int
+State 5, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{;, 28}, {StatementList', 27}]
+ERROR at state 28 - before symbol if
+State 28, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{bool, 22}, {char, 23}, {Type, 13}, {read, 15}, {Comment, 12}, {while(, 18}, {Conditional, 10}, {array, 25}, {Input, 8}, {int, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 47}, {##{string}, 20}, {Statement, 28}, {print, 16}, {//{string}, 19}, {IDENTIFIER, 14}, {Loop, 11}, {if(, 17}, {string, 24}, {Assignment, 7}]
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 15 - before symbol (
+State 15, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{=, 33}]
+ERROR at state 35 - before symbol CONSTANT
+State 35, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{(, 42}, {+, 43}, {-, 44}, {0, 45}, {Term, 58}, {IDENTIFIER, 39}, {false, 47}, {IntConstant, 40}, {BoolConstant, 41}, {true, 46}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {##{string}, 21}, {Input, 8}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {string, 26}, {Assignment, 7}, {//{string}, 20}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 41}]
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {;, 31}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 44}]
+ERROR at state 5 - before symbol }
+State 5, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Output, 9}, {//, 20}, {Input, 8}, {int, 23}, {Statement, 30}, {;, 31}, {Assignment, 7}, {string, 26}, {ReturnStatement, 13}, {##, 21}, {DeclarationStatement, 6}, {StatementList', 29}, {Loop, 11}, {while, 19}, {array, 27}, {Comment, 12}, {print, 17}, {bool, 24}, {IDENTIFIER, 15}, {if, 18}, {char, 25}, {Type, 14}, {Conditional, 10}, {return, 22}, {read, 16}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {;, 31}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 44}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {;, 31}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 44}]
+ERROR at state 0 - before symbol IDENTIFIER
+State 0, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{start, 2}, {Program, 1}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 43}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 43}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 43}]
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 43}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 43}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 43}]
+ERROR at state 0 - before symbol IDENTIFIER
+State 0, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Program, 1}]
+ERROR at state 0 - before symbol IDENTIFIER
+State 0, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Program, 1}]
+ERROR at state 0 - before symbol IDENTIFIER
+State 0, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Program, 1}]
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 44 - before symbol (
+State 44, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{;, 56}]
+ERROR at state 44 - before symbol (
+State 44, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{;, 56}]
+ERROR at state 44 - before symbol %
+State 44, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{;, 56}]
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 44 - before symbol %
+State 44, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{;, 56}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {Input, 8}, {//, 20}, {print, 17}, {int, 23}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {ReturnStatement, 13}, {Type, 14}, {char, 25}, {Statement, 30}, {string, 26}, {Conditional, 10}, {Assignment, 7}, {##, 21}, {read, 16}, {return, 22}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 42}]
+Conflicts in paradise, the algorithm cannot continue like this.
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {Input, 8}, {//, 20}, {print, 17}, {int, 23}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {ReturnStatement, 13}, {Type, 14}, {char, 25}, {Statement, 30}, {string, 26}, {Conditional, 10}, {Assignment, 7}, {##, 21}, {read, 16}, {return, 22}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 42}]
+ERROR at state 30 - before symbol )
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 42}]
+ERROR at state 30 - before symbol )
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {print, 17}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {Type, 14}, {char, 25}, {Conditional, 10}, {read, 16}, {return, 22}, {Input, 8}, {//, 20}, {int, 23}, {ReturnStatement, 13}, {Statement, 30}, {string, 26}, {Assignment, 7}, {##, 21}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 42}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {Input, 8}, {//, 20}, {print, 17}, {int, 23}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {ReturnStatement, 13}, {Type, 14}, {char, 25}, {Statement, 30}, {string, 26}, {Conditional, 10}, {Assignment, 7}, {##, 21}, {read, 16}, {return, 22}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 42}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {Input, 8}, {//, 20}, {print, 17}, {int, 23}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {ReturnStatement, 13}, {Type, 14}, {char, 25}, {Statement, 30}, {string, 26}, {Conditional, 10}, {Assignment, 7}, {##, 21}, {read, 16}, {return, 22}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 42}]
+ERROR at state 30 - before symbol }
+State 30, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Loop, 11}, {while, 19}, {array, 27}, {Input, 8}, {//, 20}, {print, 17}, {int, 23}, {bool, 24}, {Comment, 12}, {IDENTIFIER, 15}, {if, 18}, {ReturnStatement, 13}, {Type, 14}, {char, 25}, {Statement, 30}, {string, 26}, {Conditional, 10}, {Assignment, 7}, {##, 21}, {read, 16}, {return, 22}, {DeclarationStatement, 6}, {Output, 9}, {StatementList', 42}]
+ERROR at state 27 - before symbol }
+State 27, Action: 'SHIFT', Reduce Nonterminal: [null], Reduced productions: [null], Shifts: [{Conditional, 8}, {Assignment, 5}, {if, 16}, {Type, 12}, {char, 23}, {return, 20}, {Input, 6}, {while, 17}, {Comment, 10}, {read, 14}, {array, 25}, {//, 18}, {int, 21}, {StatementList', 39}, {DeclarationStatement, 4}, {Output, 7}, {##, 19}, {Statement, 27}, {string, 24}, {IDENTIFIER, 13}, {bool, 22}, {ReturnStatement, 11}, {print, 15}, {Loop, 9}]
+Conflicts in paradise, the algorithm cannot continue like this.
+ACCEPTED
+Production strings: [Program -> [StatementList], StatementList -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [;], Statement -> [Output], Output -> [print, (, Term, ), ;], Term -> [IDENTIFIER], Statement -> [Loop], Loop -> [while, (, Expression, ), {, Program, }], Program -> [StatementList], StatementList -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [;], Statement -> [Assignment], Assignment -> [IDENTIFIER, =, Term, ;], Term -> [IDENTIFIER], Statement -> [Assignment], Assignment -> [IDENTIFIER, =, Term, ;], Term -> [IDENTIFIER], Statement -> [Assignment], Assignment -> [IDENTIFIER, =, Term, ;], Term -> [(, Expression, )], Expression -> [Expression, Operator, Term], Term -> [IDENTIFIER], Operator -> [%], Expression -> [Term], Term -> [IDENTIFIER], Expression -> [Expression, Operator, Term], Term -> [CONSTANT], Operator -> [!=], Expression -> [Term], Term -> [IDENTIFIER], Statement -> [Input], Input -> [read, (, IDENTIFIER, ), ;], Statement -> [Input], Input -> [read, (, IDENTIFIER, ), ;], Statement -> [DeclarationStatement], DeclarationStatement -> [Type, IDENTIFIER, ;], Type -> [int], Statement -> [DeclarationStatement], DeclarationStatement -> [Type, IDENTIFIER, ;], Type -> [int], Statement -> [DeclarationStatement], DeclarationStatement -> [Type, IDENTIFIER, ;], Type -> [int]]
+Production number: [12, 57, 55, 55, 55, 55, 55, 55, 56, 16, 58, 45, 18, 21, 12, 57, 55, 55, 56, 14, 48, 45, 14, 48, 45, 14, 48, 47, 64, 45, 26, 63, 45, 64, 46, 28, 63, 45, 15, 49, 15, 49, 13, 66, 50, 13, 66, 50, 13, 66, 50]
+The output tree: 
+Index 0, Info: Program, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: StatementList, Left Child: 2, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: Statement, Left Child: 3, Right Child: 69, Parent: 1, Level: 2
+Index 69, Info: StatementList', Left Child: 70, Right Child: -1, Parent: 1, Level: 2
+Index 3, Info: Statement, Left Child: 4, Right Child: 62, Parent: 2, Level: 3
+Index 62, Info: StatementList', Left Child: 63, Right Child: -1, Parent: 2, Level: 3
+Index 70, Info: Input, Left Child: 71, Right Child: -1, Parent: 69, Level: 3
+Index 4, Info: Statement, Left Child: 5, Right Child: 55, Parent: 3, Level: 4
+Index 55, Info: StatementList', Left Child: 56, Right Child: -1, Parent: 3, Level: 4
+Index 63, Info: Input, Left Child: 64, Right Child: -1, Parent: 62, Level: 4
+Index 71, Info: read, Left Child: -1, Right Child: 72, Parent: 70, Level: 4
+Index 72, Info: (, Left Child: -1, Right Child: 73, Parent: 70, Level: 4
+Index 73, Info: IDENTIFIER, Left Child: -1, Right Child: 74, Parent: 70, Level: 4
+Index 74, Info: ), Left Child: -1, Right Child: 75, Parent: 70, Level: 4
+Index 75, Info: ;, Left Child: -1, Right Child: -1, Parent: 70, Level: 4
+Index 5, Info: Statement, Left Child: 6, Right Child: 44, Parent: 4, Level: 5
+Index 44, Info: StatementList', Left Child: 45, Right Child: -1, Parent: 4, Level: 5
+Index 56, Info: Expression, Left Child: 57, Right Child: 58, Parent: 55, Level: 5
+Index 58, Info: Operator, Left Child: -1, Right Child: 59, Parent: 55, Level: 5
+Index 59, Info: Term, Left Child: 60, Right Child: -1, Parent: 55, Level: 5
+Index 64, Info: read, Left Child: -1, Right Child: 65, Parent: 63, Level: 5
+Index 65, Info: (, Left Child: -1, Right Child: 66, Parent: 63, Level: 5
+Index 66, Info: IDENTIFIER, Left Child: -1, Right Child: 67, Parent: 63, Level: 5
+Index 67, Info: ), Left Child: -1, Right Child: 68, Parent: 63, Level: 5
+Index 68, Info: ;, Left Child: -1, Right Child: -1, Parent: 63, Level: 5
+Index 6, Info: Statement, Left Child: 7, Right Child: 41, Parent: 5, Level: 6
+Index 41, Info: StatementList', Left Child: 42, Right Child: -1, Parent: 5, Level: 6
+Index 45, Info: (, Left Child: -1, Right Child: 46, Parent: 44, Level: 6
+Index 46, Info: Expression, Left Child: 47, Right Child: 54, Parent: 44, Level: 6
+Index 54, Info: ), Left Child: -1, Right Child: -1, Parent: 44, Level: 6
+Index 57, Info: CONSTANT, Left Child: -1, Right Child: -1, Parent: 56, Level: 6
+Index 60, Info: Term, Left Child: 61, Right Child: -1, Parent: 59, Level: 6
+Index 7, Info: Statement, Left Child: 8, Right Child: 18, Parent: 6, Level: 7
+Index 18, Info: StatementList', Left Child: 19, Right Child: -1, Parent: 6, Level: 7
+Index 42, Info: Assignment, Left Child: 43, Right Child: -1, Parent: 41, Level: 7
+Index 47, Info: Expression, Left Child: 48, Right Child: 49, Parent: 46, Level: 7
+Index 49, Info: Operator, Left Child: 50, Right Child: 51, Parent: 46, Level: 7
+Index 51, Info: Term, Left Child: 52, Right Child: -1, Parent: 46, Level: 7
+Index 61, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 60, Level: 7
+Index 8, Info: Statement, Left Child: 9, Right Child: 10, Parent: 7, Level: 8
+Index 10, Info: StatementList', Left Child: 11, Right Child: -1, Parent: 7, Level: 8
+Index 19, Info: Loop, Left Child: 20, Right Child: -1, Parent: 18, Level: 8
+Index 43, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 42, Level: 8
+Index 48, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 47, Level: 8
+Index 50, Info: %, Left Child: -1, Right Child: -1, Parent: 49, Level: 8
+Index 52, Info: Term, Left Child: 53, Right Child: -1, Parent: 51, Level: 8
+Index 9, Info: ;, Left Child: -1, Right Child: -1, Parent: 8, Level: 9
+Index 11, Info: Output, Left Child: 12, Right Child: -1, Parent: 10, Level: 9
+Index 20, Info: while, Left Child: -1, Right Child: 21, Parent: 19, Level: 9
+Index 21, Info: (, Left Child: -1, Right Child: 22, Parent: 19, Level: 9
+Index 22, Info: Expression, Left Child: 23, Right Child: 36, Parent: 19, Level: 9
+Index 36, Info: ), Left Child: -1, Right Child: 37, Parent: 19, Level: 9
+Index 37, Info: {, Left Child: -1, Right Child: 38, Parent: 19, Level: 9
+Index 38, Info: Program, Left Child: 39, Right Child: 40, Parent: 19, Level: 9
+Index 40, Info: }, Left Child: -1, Right Child: -1, Parent: 19, Level: 9
+Index 53, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 52, Level: 9
+Index 12, Info: print, Left Child: -1, Right Child: 13, Parent: 11, Level: 10
+Index 13, Info: (, Left Child: -1, Right Child: 14, Parent: 11, Level: 10
+Index 14, Info: Term, Left Child: 15, Right Child: 16, Parent: 11, Level: 10
+Index 16, Info: ), Left Child: -1, Right Child: 17, Parent: 11, Level: 10
+Index 17, Info: ;, Left Child: -1, Right Child: -1, Parent: 11, Level: 10
+Index 23, Info: StatementList, Left Child: 24, Right Child: -1, Parent: 22, Level: 10
+Index 39, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 38, Level: 10
+Index 15, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 14, Level: 11
+Index 24, Info: Statement, Left Child: 25, Right Child: 33, Parent: 23, Level: 11
+Index 33, Info: StatementList', Left Child: 34, Right Child: -1, Parent: 23, Level: 11
+Index 25, Info: Statement, Left Child: 26, Right Child: 31, Parent: 24, Level: 12
+Index 31, Info: StatementList', Left Child: 32, Right Child: -1, Parent: 24, Level: 12
+Index 34, Info: Assignment, Left Child: 35, Right Child: -1, Parent: 33, Level: 12
+Index 26, Info: Statement, Left Child: 27, Right Child: 28, Parent: 25, Level: 13
+Index 28, Info: StatementList', Left Child: 29, Right Child: -1, Parent: 25, Level: 13
+Index 32, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 31, Level: 13
+Index 35, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 34, Level: 13
+Index 27, Info: ;, Left Child: -1, Right Child: -1, Parent: 26, Level: 14
+Index 29, Info: Assignment, Left Child: 30, Right Child: -1, Parent: 28, Level: 14
+Index 30, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 29, Level: 15
+ACCEPTED
+Production strings: [Program -> [StatementList], StatementList -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [;], Statement -> [Output], Output -> [print, (, Term, ), ;], Term -> [IDENTIFIER], Statement -> [Loop], Loop -> [while, (, Expression, ), {, Program, }], Program -> [StatementList], StatementList -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [Statement, StatementList'], StatementList' -> [;], Statement -> [Assignment], Assignment -> [IDENTIFIER, =, Term, ;], Term -> [IDENTIFIER], Statement -> [Assignment], Assignment -> [IDENTIFIER, =, Term, ;], Term -> [IDENTIFIER], Statement -> [Assignment], Assignment -> [IDENTIFIER, =, Term, ;], Term -> [(, Expression, )], Expression -> [Expression, Operator, Term], Term -> [IDENTIFIER], Operator -> [%], Expression -> [Term], Term -> [IDENTIFIER], Expression -> [Expression, Operator, Term], Term -> [CONSTANT], Operator -> [!=], Expression -> [Term], Term -> [IDENTIFIER], Statement -> [Input], Input -> [read, (, IDENTIFIER, ), ;], Statement -> [Input], Input -> [read, (, IDENTIFIER, ), ;], Statement -> [DeclarationStatement], DeclarationStatement -> [Type, IDENTIFIER, ;], Type -> [int], Statement -> [DeclarationStatement], DeclarationStatement -> [Type, IDENTIFIER, ;], Type -> [int], Statement -> [DeclarationStatement], DeclarationStatement -> [Type, IDENTIFIER, ;], Type -> [int]]
+Production number: [12, 57, 55, 55, 55, 55, 55, 55, 56, 16, 58, 45, 18, 21, 12, 57, 55, 55, 56, 14, 48, 45, 14, 48, 45, 14, 48, 47, 64, 45, 26, 63, 45, 64, 46, 28, 63, 45, 15, 49, 15, 49, 13, 66, 50, 13, 66, 50, 13, 66, 50]
+The output tree: 
+Index 0, Info: Program, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: StatementList, Left Child: 2, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: Statement, Left Child: 3, Right Child: 69, Parent: 1, Level: 2
+Index 69, Info: StatementList', Left Child: 70, Right Child: -1, Parent: 1, Level: 2
+Index 3, Info: Statement, Left Child: 4, Right Child: 62, Parent: 2, Level: 3
+Index 62, Info: StatementList', Left Child: 63, Right Child: -1, Parent: 2, Level: 3
+Index 70, Info: Input, Left Child: 71, Right Child: -1, Parent: 69, Level: 3
+Index 4, Info: Statement, Left Child: 5, Right Child: 55, Parent: 3, Level: 4
+Index 55, Info: StatementList', Left Child: 56, Right Child: -1, Parent: 3, Level: 4
+Index 63, Info: Input, Left Child: 64, Right Child: -1, Parent: 62, Level: 4
+Index 71, Info: read, Left Child: -1, Right Child: 72, Parent: 70, Level: 4
+Index 72, Info: (, Left Child: -1, Right Child: 73, Parent: 70, Level: 4
+Index 73, Info: IDENTIFIER, Left Child: -1, Right Child: 74, Parent: 70, Level: 4
+Index 74, Info: ), Left Child: -1, Right Child: 75, Parent: 70, Level: 4
+Index 75, Info: ;, Left Child: -1, Right Child: -1, Parent: 70, Level: 4
+Index 5, Info: Statement, Left Child: 6, Right Child: 44, Parent: 4, Level: 5
+Index 44, Info: StatementList', Left Child: 45, Right Child: -1, Parent: 4, Level: 5
+Index 56, Info: Expression, Left Child: 57, Right Child: 58, Parent: 55, Level: 5
+Index 58, Info: Operator, Left Child: -1, Right Child: 59, Parent: 55, Level: 5
+Index 59, Info: Term, Left Child: 60, Right Child: -1, Parent: 55, Level: 5
+Index 64, Info: read, Left Child: -1, Right Child: 65, Parent: 63, Level: 5
+Index 65, Info: (, Left Child: -1, Right Child: 66, Parent: 63, Level: 5
+Index 66, Info: IDENTIFIER, Left Child: -1, Right Child: 67, Parent: 63, Level: 5
+Index 67, Info: ), Left Child: -1, Right Child: 68, Parent: 63, Level: 5
+Index 68, Info: ;, Left Child: -1, Right Child: -1, Parent: 63, Level: 5
+Index 6, Info: Statement, Left Child: 7, Right Child: 41, Parent: 5, Level: 6
+Index 41, Info: StatementList', Left Child: 42, Right Child: -1, Parent: 5, Level: 6
+Index 45, Info: (, Left Child: -1, Right Child: 46, Parent: 44, Level: 6
+Index 46, Info: Expression, Left Child: 47, Right Child: 54, Parent: 44, Level: 6
+Index 54, Info: ), Left Child: -1, Right Child: -1, Parent: 44, Level: 6
+Index 57, Info: CONSTANT, Left Child: -1, Right Child: -1, Parent: 56, Level: 6
+Index 60, Info: Term, Left Child: 61, Right Child: -1, Parent: 59, Level: 6
+Index 7, Info: Statement, Left Child: 8, Right Child: 18, Parent: 6, Level: 7
+Index 18, Info: StatementList', Left Child: 19, Right Child: -1, Parent: 6, Level: 7
+Index 42, Info: Assignment, Left Child: 43, Right Child: -1, Parent: 41, Level: 7
+Index 47, Info: Expression, Left Child: 48, Right Child: 49, Parent: 46, Level: 7
+Index 49, Info: Operator, Left Child: 50, Right Child: 51, Parent: 46, Level: 7
+Index 51, Info: Term, Left Child: 52, Right Child: -1, Parent: 46, Level: 7
+Index 61, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 60, Level: 7
+Index 8, Info: Statement, Left Child: 9, Right Child: 10, Parent: 7, Level: 8
+Index 10, Info: StatementList', Left Child: 11, Right Child: -1, Parent: 7, Level: 8
+Index 19, Info: Loop, Left Child: 20, Right Child: -1, Parent: 18, Level: 8
+Index 43, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 42, Level: 8
+Index 48, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 47, Level: 8
+Index 50, Info: %, Left Child: -1, Right Child: -1, Parent: 49, Level: 8
+Index 52, Info: Term, Left Child: 53, Right Child: -1, Parent: 51, Level: 8
+Index 9, Info: ;, Left Child: -1, Right Child: -1, Parent: 8, Level: 9
+Index 11, Info: Output, Left Child: 12, Right Child: -1, Parent: 10, Level: 9
+Index 20, Info: while, Left Child: -1, Right Child: 21, Parent: 19, Level: 9
+Index 21, Info: (, Left Child: -1, Right Child: 22, Parent: 19, Level: 9
+Index 22, Info: Expression, Left Child: 23, Right Child: 36, Parent: 19, Level: 9
+Index 36, Info: ), Left Child: -1, Right Child: 37, Parent: 19, Level: 9
+Index 37, Info: {, Left Child: -1, Right Child: 38, Parent: 19, Level: 9
+Index 38, Info: Program, Left Child: 39, Right Child: 40, Parent: 19, Level: 9
+Index 40, Info: }, Left Child: -1, Right Child: -1, Parent: 19, Level: 9
+Index 53, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 52, Level: 9
+Index 12, Info: print, Left Child: -1, Right Child: 13, Parent: 11, Level: 10
+Index 13, Info: (, Left Child: -1, Right Child: 14, Parent: 11, Level: 10
+Index 14, Info: Term, Left Child: 15, Right Child: 16, Parent: 11, Level: 10
+Index 16, Info: ), Left Child: -1, Right Child: 17, Parent: 11, Level: 10
+Index 17, Info: ;, Left Child: -1, Right Child: -1, Parent: 11, Level: 10
+Index 23, Info: StatementList, Left Child: 24, Right Child: -1, Parent: 22, Level: 10
+Index 39, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 38, Level: 10
+Index 15, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 14, Level: 11
+Index 24, Info: Statement, Left Child: 25, Right Child: 33, Parent: 23, Level: 11
+Index 33, Info: StatementList', Left Child: 34, Right Child: -1, Parent: 23, Level: 11
+Index 25, Info: Statement, Left Child: 26, Right Child: 31, Parent: 24, Level: 12
+Index 31, Info: StatementList', Left Child: 32, Right Child: -1, Parent: 24, Level: 12
+Index 34, Info: Assignment, Left Child: 35, Right Child: -1, Parent: 33, Level: 12
+Index 26, Info: Statement, Left Child: 27, Right Child: 28, Parent: 25, Level: 13
+Index 28, Info: StatementList', Left Child: 29, Right Child: -1, Parent: 25, Level: 13
+Index 32, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 31, Level: 13
+Index 35, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 34, Level: 13
+Index 27, Info: ;, Left Child: -1, Right Child: -1, Parent: 26, Level: 14
+Index 29, Info: Assignment, Left Child: 30, Right Child: -1, Parent: 28, Level: 14
+Index 30, Info: IDENTIFIER, Left Child: -1, Right Child: -1, Parent: 29, Level: 15

@@ -1,0 +1,186 @@
+Error: Attempting SHIFT with empty input stack.
+ACCEPTED
+Production strings: [S -> [a, A], A -> [a, A], A -> [b]]
+Production number: [2, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: a, Left Child: -1, Right Child: 2, Parent: 0, Level: 1
+Index 2, Info: A, Left Child: 3, Right Child: -1, Parent: 0, Level: 1
+Index 3, Info: a, Left Child: -1, Right Child: 4, Parent: 2, Level: 2
+Index 4, Info: A, Left Child: 5, Right Child: -1, Parent: 2, Level: 2
+Index 5, Info: b, Left Child: -1, Right Child: -1, Parent: 4, Level: 3
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: a, Left Child: -1, Right Child: 11, Parent: 9, Level: 3
+Index 11, Info: A, Left Child: 12, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+Index 12, Info: b, Left Child: -1, Right Child: -1, Parent: 11, Level: 4
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+ERROR at state 0 - before symbol baaba
+State 0, Action: 'SHIFT', Reduce: [null], Reduced productions: [null], Shifts: [{A, 2}, {a, 3}, {b, 4}, {S, 1}]
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+ERROR at state 0 - before symbol abaab
+State 0, Action: 'SHIFT', Reduce: [null], Reduced productions: [null], Shifts: [{A, 2}, {a, 3}, {b, 4}, {S, 1}]
+ERROR at state 0 - before symbol abaab
+State 0, Action: 'SHIFT', Reduce: [null], Reduced productions: [null], Shifts: [{A, 2}, {a, 3}, {b, 4}, {S, 1}]
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+ERROR at state 0 - before symbol abaab
+State 0, Action: 'SHIFT', Reduce: [null], Reduced productions: [null], Shifts: [{A, 2}, {a, 3}, {b, 4}, {S, 1}]
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4
+ACCEPTED
+Production strings: [S -> [A, A], A -> [a, A], A -> [a, A], A -> [b], A -> [a, A], A -> [b]]
+Production number: [2, 0, 0, 1, 0, 1]
+The output tree: 
+Index 0, Info: S, Left Child: 1, Right Child: -1, Parent: -1, Level: 0
+Index 1, Info: A, Left Child: 2, Right Child: 7, Parent: 0, Level: 1
+Index 7, Info: A, Left Child: 8, Right Child: -1, Parent: 0, Level: 1
+Index 2, Info: a, Left Child: -1, Right Child: 3, Parent: 1, Level: 2
+Index 3, Info: A, Left Child: 4, Right Child: -1, Parent: 1, Level: 2
+Index 8, Info: a, Left Child: -1, Right Child: 9, Parent: 7, Level: 2
+Index 9, Info: A, Left Child: 10, Right Child: -1, Parent: 7, Level: 2
+Index 4, Info: a, Left Child: -1, Right Child: 5, Parent: 3, Level: 3
+Index 5, Info: A, Left Child: 6, Right Child: -1, Parent: 3, Level: 3
+Index 10, Info: b, Left Child: -1, Right Child: -1, Parent: 9, Level: 3
+Index 6, Info: b, Left Child: -1, Right Child: -1, Parent: 5, Level: 4

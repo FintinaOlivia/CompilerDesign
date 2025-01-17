@@ -1,0 +1,8 @@
+N = S,A
+T = a,b
+P =
+start
+S->A A
+A->a A | b
+end
+S0 = S

@@ -1,4 +1,4 @@
-package Components;
+package Components.SymbolTable;
 
 public enum TokenTypes {
     SEPARATOR,

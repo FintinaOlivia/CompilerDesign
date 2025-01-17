@@ -1,42 +1,51 @@
-Token { int } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { ( } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { int } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { , } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { int } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { , } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { int } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { ) } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { { } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { if } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { ( } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { <= } - Position in Symbol Table: {-1, -1} -> OPERATOR
-Token { && } - Position in Symbol Table: {-1, -1} -> OPERATOR
-Token { <= } - Position in Symbol Table: {-1, -1} -> OPERATOR
-Token { ) } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { { } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { print } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { ( } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { "The maximum number is the first one." } - Position in Symbol Table: {1, 0} -> CONSTANT
-Token { ) } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { ; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { return } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { ; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { } } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { else } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { if } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { ( } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { <= } - Position in Symbol Table: {-1, -1} -> OPERATOR
-Token { && } - Position in Symbol Table: {-1, -1} -> OPERATOR
-Token { <= } - Position in Symbol Table: {-1, -1} -> OPERATOR
-Token { ) } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { { } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { return } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { ; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { } } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { else } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { { } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { return } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
-Token { ; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { } } - Position in Symbol Table: {-1, -1} -> SEPARATOR
-Token { } } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+int } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
+IDENTIFIER - a } - Position in Symbol Table: {1, 0} -> IDENTIFIER
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+int } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
+IDENTIFIER - b } - Position in Symbol Table: {2, 0} -> IDENTIFIER
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+int } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
+IDENTIFIER - c } - Position in Symbol Table: {3, 0} -> IDENTIFIER
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+read } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
+( } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+IDENTIFIER - a } - Position in Symbol Table: {1, 0} -> IDENTIFIER
+) } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+read } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
+( } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+IDENTIFIER - b } - Position in Symbol Table: {2, 0} -> IDENTIFIER
+) } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+while } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
+( } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+IDENTIFIER - b } - Position in Symbol Table: {2, 0} -> IDENTIFIER
+!= } - Position in Symbol Table: {-1, -1} -> OPERATOR
+CONSTANT - 0 } - Position in Symbol Table: {0, 0} -> CONSTANT
+) } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+{ } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+IDENTIFIER - c } - Position in Symbol Table: {3, 0} -> IDENTIFIER
+= } - Position in Symbol Table: {-1, -1} -> OPERATOR
+( } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+IDENTIFIER - a } - Position in Symbol Table: {1, 0} -> IDENTIFIER
+% } - Position in Symbol Table: {-1, -1} -> OPERATOR
+IDENTIFIER - b } - Position in Symbol Table: {2, 0} -> IDENTIFIER
+) } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+IDENTIFIER - a } - Position in Symbol Table: {1, 0} -> IDENTIFIER
+= } - Position in Symbol Table: {-1, -1} -> OPERATOR
+IDENTIFIER - b } - Position in Symbol Table: {2, 0} -> IDENTIFIER
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+IDENTIFIER - b } - Position in Symbol Table: {2, 0} -> IDENTIFIER
+= } - Position in Symbol Table: {-1, -1} -> OPERATOR
+IDENTIFIER - c } - Position in Symbol Table: {3, 0} -> IDENTIFIER
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+} } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+print } - Position in Symbol Table: {-1, -1} -> RESERVED_WORD
+( } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+IDENTIFIER - a } - Position in Symbol Table: {1, 0} -> IDENTIFIER
+) } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
+; } - Position in Symbol Table: {-1, -1} -> SEPARATOR
 

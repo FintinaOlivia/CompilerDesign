@@ -1,6 +1,10 @@
 package Components;
 
 import Assets.Constants;
+import Components.FA.FiniteAutomaton;
+import Components.SymbolTable.ProgramInternalForm;
+import Components.SymbolTable.SymbolTable;
+import Components.SymbolTable.TokenTypes;
 import DataStructures.Pair;
 import Helpers.FileHandler;
 
@@ -33,6 +37,10 @@ public class LexicalAnalyzer {
         this.filePath = filePath;
         this.pif = new ProgramInternalForm();
         this.finiteAutomaton = new FiniteAutomaton(Constants.automatonPath);
+    }
+
+    public ProgramInternalForm getPif() {
+        return pif;
     }
 
     public void run() {

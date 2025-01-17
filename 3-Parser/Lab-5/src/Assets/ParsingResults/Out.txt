@@ -1,0 +1,264 @@
+Parsing Table: 
+State 0, Action: 'SHIFT', Reduce: [null], Reduced productions: [null], Shifts: [{A, 2}, {a, 3}, {b, 4}, {S, 1}]
+State 1, Action: 'ACCEPT', Reduce: [null], Reduced productions: [null], Shifts: null
+State 2, Action: 'SHIFT', Reduce: [null], Reduced productions: [null], Shifts: [{A, 5}, {a, 3}, {b, 4}]
+State 3, Action: 'SHIFT', Reduce: [null], Reduced productions: [null], Shifts: [{b, 4}, {A, 6}, {a, 3}]
+State 4, Action: 'REDUCE', Reduce: [A], Reduced productions: [b], Shifts: null
+State 5, Action: 'REDUCE', Reduce: [S], Reduced productions: [A A], Shifts: null
+State 6, Action: 'REDUCE', Reduce: [A], Reduced productions: [a A], Shifts: null
+
+STATE INDEX -> 2
+SYMBOL -> Statement
+INITIAL STATE -> 0
+( 0, Statement ) -> 2
+STATE -> SHIFT_REDUCE_CONFLICT : [Program -> Statement., StatementList -> Statement., StatementList -> Statement.;StatementList]
+STATE INDEX -> 31
+SYMBOL -> Statement
+INITIAL STATE -> 23
+( 23, Statement ) -> 31
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList -> Statement., StatementList -> Statement.;StatementList]
+STATE INDEX -> 2
+SYMBOL -> Statement
+INITIAL STATE -> 0
+( 0, Statement ) -> 2
+STATE -> SHIFT_REDUCE_CONFLICT : [Program -> Statement., StatementList -> Statement., StatementList -> Statement.;StatementList]
+STATE INDEX -> 31
+SYMBOL -> Statement
+INITIAL STATE -> 23
+( 23, Statement ) -> 31
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList -> Statement., StatementList -> Statement.;StatementList]
+STATE INDEX -> 2
+SYMBOL -> Statement
+INITIAL STATE -> 0
+( 0, Statement ) -> 2
+STATE -> SHIFT_REDUCE_CONFLICT : [Program -> Statement., StatementList -> Statement., StatementList -> Statement.;StatementList]
+STATE INDEX -> 31
+SYMBOL -> Statement
+INITIAL STATE -> 23
+( 23, Statement ) -> 31
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList -> Statement., StatementList -> Statement.;StatementList]
+STATE INDEX -> 2
+SYMBOL -> Statement
+INITIAL STATE -> 132
+( 132, Statement ) -> 2
+STATE -> SHIFT_REDUCE_CONFLICT : [Program -> Statement., StatementList -> Statement.StatementList', StatementList' -> .;StatementStatementList', StatementList' -> .;]
+STATE INDEX -> 2
+SYMBOL -> Statement
+INITIAL STATE -> 83
+( 83, Statement ) -> 2
+STATE -> REDUCE_REDUCE_CONFLICT : [Program -> Statement., StatementList -> Statement.]
+STATE INDEX -> 2
+SYMBOL -> StatementList
+INITIAL STATE -> 87
+( 87, StatementList ) -> 2
+STATE -> SHIFT_REDUCE_CONFLICT : [Program -> StatementList., StatementList -> StatementList.Statement, Statement -> .SimpleStatement;, Statement -> .StructureStatement, SimpleStatement -> .DeclarationStatement, SimpleStatement -> .AssignmentStatement, SimpleStatement -> .InputStatement, SimpleStatement -> .OutputStatement, StructureStatement -> .CompoundStatement, StructureStatement -> .Conditional, StructureStatement -> .Loop, StructureStatement -> .Comment, DeclarationStatement -> .TypeIdentifier[=Expression];, CompoundStatement -> .{StatementList}, Conditional -> .if(Expression){Program}Conditional', Loop -> .while(Expression){Program}, Comment -> .//{string}, Comment -> .##{string}, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>Identifier[IntConstant]]
+STATE INDEX -> 2
+SYMBOL -> Statement
+INITIAL STATE -> 0
+( 0, Statement ) -> 2
+STATE -> SHIFT_REDUCE_CONFLICT : [Program -> Statement., StatementList -> Statement., StatementList -> Statement.;StatementList]
+STATE INDEX -> 16
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 3
+( 3, IDENTIFIER ) -> 16
+STATE -> SHIFT_REDUCE_CONFLICT : [Reassignment -> IDENTIFIER.=IDENTIFIER, Term -> IDENTIFIER.]
+STATE INDEX -> 16
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 3
+( 3, IDENTIFIER ) -> 16
+STATE -> SHIFT_REDUCE_CONFLICT : [Reassignment -> IDENTIFIER.=IDENTIFIER;, Term -> IDENTIFIER.]
+STATE INDEX -> 16
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 3
+( 3, IDENTIFIER ) -> 16
+STATE -> SHIFT_REDUCE_CONFLICT : [Reassignment -> IDENTIFIER.=IDENTIFIER;, Term -> IDENTIFIER.]
+STATE INDEX -> 105
+SYMBOL -> ;
+INITIAL STATE -> 93
+( 93, ; ) -> 105
+STATE -> REDUCE_REDUCE_CONFLICT : [Assignment -> TypeIDENTIFIER=Expression;., Term -> Expression;.]
+STATE INDEX -> 37
+SYMBOL -> Expression
+INITIAL STATE -> 19
+( 19, Expression ) -> 37
+STATE -> SHIFT_REDUCE_CONFLICT : [Conditional -> if(Expression.)ProgramelseProgram, Term -> Expression.]
+STATE INDEX -> 27
+SYMBOL -> ;
+INITIAL STATE -> 3
+( 3, ; ) -> 27
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList' -> ;.StatementStatementList', Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Reassignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, DeclarationStatement -> .TypeIDENTIFIER[=Expression];, Assignment -> .TypeIDENTIFIER=Expression;, Reassignment -> .IDENTIFIER=IDENTIFIER;, Reassignment -> .CONSTANT;, Input -> .read(IDENTIFIER{,IDENTIFIER});, Output -> .print(Expression{,Expression});, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//{string}, Comment -> .##{string}, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant], StatementList' -> ;.]
+STATE INDEX -> 30
+SYMBOL -> ;
+INITIAL STATE -> 52
+( 52, ; ) -> 30
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList' -> ;.StatementStatementList', Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Reassignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, DeclarationStatement -> .TypeIDENTIFIER[=Expression];, Assignment -> .TypeIDENTIFIER=Expression;, Reassignment -> .IDENTIFIER=IDENTIFIER;, Reassignment -> .CONSTANT;, Input -> .read(IDENTIFIER{,IDENTIFIER});, Output -> .print(Expression{,Expression});, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//{string}, Comment -> .##{string}, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant], StatementList' -> ;.]
+STATE INDEX -> 5
+SYMBOL -> DeclarationStatement
+INITIAL STATE -> 3
+( 3, DeclarationStatement ) -> 5
+STATE -> REDUCE_REDUCE_CONFLICT : [StatementList -> DeclarationStatement., Statement -> DeclarationStatement.]
+STATE INDEX -> 30
+SYMBOL -> ;
+INITIAL STATE -> 51
+( 51, ; ) -> 30
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList' -> ;.StatementStatementList', Statement -> .Assignment, Statement -> .Reassignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, Assignment -> .TypeIDENTIFIER=Expression;, Reassignment -> .IDENTIFIER=IDENTIFIER;, Reassignment -> .CONSTANT;, Input -> .read(IDENTIFIER{,IDENTIFIER});, Output -> .print(Expression{,Expression});, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//{string}, Comment -> .##{string}, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant], StatementList' -> ;.]
+STATE INDEX -> 30
+SYMBOL -> ;
+INITIAL STATE -> 51
+( 51, ; ) -> 30
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList' -> ;.StatementStatementList', Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Reassignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, DeclarationStatement -> .TypeIDENTIFIER[=Expression];, Assignment -> .TypeIDENTIFIER=Expression;, Reassignment -> .IDENTIFIER=IDENTIFIER;, Reassignment -> .CONSTANT;, Input -> .read(IDENTIFIER{,IDENTIFIER});, Output -> .print(Expression{,Expression});, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//{string}, Comment -> .##{string}, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant], StatementList' -> ;.]
+STATE INDEX -> 6
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 3
+( 3, IDENTIFIER ) -> 6
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList -> IDENTIFIER., Reassignment -> IDENTIFIER.=IDENTIFIER;]
+STATE INDEX -> 109
+SYMBOL -> ;
+INITIAL STATE -> 95
+( 95, ; ) -> 109
+STATE -> REDUCE_REDUCE_CONFLICT : [StatementList -> TypeIDENTIFIER=CONSTANT;., Term -> CONSTANT;.]
+STATE INDEX -> 103
+SYMBOL -> ;
+INITIAL STATE -> 92
+( 92, ; ) -> 103
+STATE -> REDUCE_REDUCE_CONFLICT : [DeclarationStatement -> TypeIDENTIFIER=Expression;., Assignment -> TypeIDENTIFIER=Expression;.]
+STATE INDEX -> 31
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 14
+( 14, IDENTIFIER ) -> 31
+STATE -> SHIFT_REDUCE_CONFLICT : [DeclarationStatement -> TypeIDENTIFIER.=Expression, Assignment -> TypeIDENTIFIER.]
+STATE INDEX -> 50
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 31
+( 31, IDENTIFIER ) -> 50
+STATE -> REDUCE_REDUCE_CONFLICT : [Term -> IDENTIFIER., Reassignment -> IDENTIFIER=IDENTIFIER.]
+STATE INDEX -> 50
+SYMBOL -> Term
+INITIAL STATE -> 30
+( 30, Term ) -> 50
+STATE -> SHIFT_REDUCE_CONFLICT : [Expression -> Term.Expression', Expression' -> .OperatorTermExpression', Operator -> .+, Operator -> .-, Operator -> .*, Operator -> ./, Operator -> .%, Operator -> .==, Operator -> .!=, Operator -> .<, Operator -> .<=, Operator -> .>, Operator -> .>=, Operator -> .=, Operator -> .&&, Reassignment -> IDENTIFIER=Term.]
+STATE INDEX -> 50
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 30
+( 30, IDENTIFIER ) -> 50
+STATE -> REDUCE_REDUCE_CONFLICT : [Term -> IDENTIFIER., Reassignment -> IDENTIFIER=IDENTIFIER.]
+STATE INDEX -> 14
+SYMBOL -> IDENTIFIER=Expression
+INITIAL STATE -> 3
+( 3, IDENTIFIER=Expression ) -> 14
+STATE -> REDUCE_REDUCE_CONFLICT : [DeclarationStatement -> IDENTIFIER=Expression., Reassignment -> IDENTIFIER=Expression.]
+STATE INDEX -> 52
+SYMBOL -> Primary
+INITIAL STATE -> 30
+( 30, Primary ) -> 52
+STATE -> SHIFT_REDUCE_CONFLICT : [MultiplicativeExpression -> Primary.*Primary, MultiplicativeExpression -> Primary./Primary, MultiplicativeExpression -> Primary.%Primary, Reassignment -> IDENTIFIER=Primary.]
+STATE INDEX -> 53
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 30
+( 30, IDENTIFIER ) -> 53
+STATE -> REDUCE_REDUCE_CONFLICT : [Primary -> IDENTIFIER., Term -> IDENTIFIER.]
+STATE INDEX -> 57
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 32
+( 32, IDENTIFIER ) -> 57
+STATE -> REDUCE_REDUCE_CONFLICT : [Primary -> IDENTIFIER., Term -> IDENTIFIER.]
+STATE INDEX -> 102
+SYMBOL -> Term
+INITIAL STATE -> 62
+( 62, Term ) -> 102
+STATE -> SHIFT_REDUCE_CONFLICT : [Expression' -> OperatorTerm.Expression', Expression' -> .OperatorTermExpression', Expression' -> .OperatorTerm, Operator -> .+, Operator -> .-, Operator -> .*, Operator -> ./, Operator -> .%, Operator -> .==, Operator -> .!=, Operator -> .<, Operator -> .<=, Operator -> .>, Operator -> .>=, Operator -> .=, Operator -> .&&, Expression' -> OperatorTerm.]
+STATE INDEX -> 102
+SYMBOL -> Term
+INITIAL STATE -> 62
+( 62, Term ) -> 102
+STATE -> SHIFT_REDUCE_CONFLICT : [Expression' -> OperatorTerm.Expression', Expression' -> .OperatorTermExpression', Expression' -> .OperatorTerm, Operator -> .+, Operator -> .-, Operator -> .*, Operator -> ./, Operator -> .%, Operator -> .==, Operator -> .!=, Operator -> .<, Operator -> .<=, Operator -> .>, Operator -> .>=, Operator -> .=, Operator -> .&&, Expression' -> OperatorTerm.]
+STATE INDEX -> 38
+SYMBOL -> Term
+INITIAL STATE -> 36
+( 36, Term ) -> 38
+STATE -> SHIFT_REDUCE_CONFLICT : [Expression -> Term.Expression', Expression' -> .OperatorTermExpression', Expression' -> ., Operator -> .+, Operator -> .-, Operator -> .*, Operator -> ./, Operator -> .%, Operator -> .==, Operator -> .!=, Operator -> .<, Operator -> .<=, Operator -> .>, Operator -> .>=, Operator -> .=, Operator -> .&&]
+STATE INDEX -> 38
+SYMBOL -> Term
+INITIAL STATE -> 36
+( 36, Term ) -> 38
+STATE -> SHIFT_REDUCE_CONFLICT : [Expression -> Term.Expression', Expression' -> .OperatorTermExpression', Expression' -> ., Operator -> .+, Operator -> .-, Operator -> .*, Operator -> ./, Operator -> .%, Operator -> .==, Operator -> .!=, Operator -> .<, Operator -> .<=, Operator -> .>, Operator -> .>=, Operator -> .=, Operator -> .&&]
+STATE INDEX -> 5
+SYMBOL -> Statement
+INITIAL STATE -> 3
+( 3, Statement ) -> 5
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList -> Statement.StatementList', StatementList' -> .StatementStatementList', StatementList' -> ., Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, Statement -> .ReturnStatement, DeclarationStatement -> .TypeIDENTIFIER[=Expression];, Assignment -> .TypeIDENTIFIER=Expression;, Assignment -> .TypeIDENTIFIER;, Assignment -> .IDENTIFIER=IDENTIFIER;, Assignment -> .IDENTIFIER=CONSTANT;, Input -> .read(IDENTIFIER);, Output -> .print(Term);, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//{string}, Comment -> .##{string}, ReturnStatement -> .returnIDENTIFIER;, ReturnStatement -> .returnCONSTANT;, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant]]
+STATE INDEX -> 3
+SYMBOL -> {
+INITIAL STATE -> 0
+( 0, { ) -> 3
+STATE -> SHIFT_REDUCE_CONFLICT : [CompoundStatement -> {.StatementList}, StatementList -> .StatementStatementList, StatementList -> ., Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, Statement -> .ReturnStatement, DeclarationStatement -> .TypeIDENTIFIER[=Expression];, Assignment -> .TypeIDENTIFIER=Expression;, Assignment -> .TypeIDENTIFIER;, Assignment -> .IDENTIFIER=IDENTIFIER;, Assignment -> .IDENTIFIER=CONSTANT;, Input -> .read(IDENTIFIER);, Output -> .print(Term);, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//{string}, Comment -> .##{string}, ReturnStatement -> .returnIDENTIFIER;, ReturnStatement -> .returnCONSTANT;, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant]]
+STATE INDEX -> 3
+SYMBOL -> {
+INITIAL STATE -> 65
+( 65, { ) -> 3
+STATE -> SHIFT_REDUCE_CONFLICT : [CompoundStatement -> {.StatementList}, StatementList -> .StatementStatementList, StatementList -> ., Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, Statement -> .ReturnStatement, DeclarationStatement -> .TypeIDENTIFIER[=Expression];, Assignment -> .TypeIDENTIFIER=Expression;, Assignment -> .TypeIDENTIFIER;, Assignment -> .IDENTIFIER=IDENTIFIER;, Assignment -> .IDENTIFIER=CONSTANT;, Input -> .read(IDENTIFIER);, Output -> .print(Term);, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//CONSTANT, Comment -> .##CONSTANT, ReturnStatement -> .returnIDENTIFIER;, ReturnStatement -> .returnCONSTANT;, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant]]
+STATE INDEX -> 5
+SYMBOL -> Statement
+INITIAL STATE -> 3
+( 3, Statement ) -> 5
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList -> Statement.StatementList', StatementList' -> .StatementStatementList', StatementList' -> ., Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, Statement -> .ReturnStatement, DeclarationStatement -> .TypeIDENTIFIER[=Expression];, Assignment -> .TypeIDENTIFIER=Expression;, Assignment -> .TypeIDENTIFIER;, Assignment -> .IDENTIFIER=IDENTIFIER;, Assignment -> .IDENTIFIER=CONSTANT;, Input -> .read(IDENTIFIER);, Output -> .print(Term);, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//CONSTANT, Comment -> .##CONSTANT, ReturnStatement -> .returnIDENTIFIER;, ReturnStatement -> .returnCONSTANT;, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant]]
+STATE INDEX -> 5
+SYMBOL -> Statement
+INITIAL STATE -> 3
+( 3, Statement ) -> 5
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList -> Statement.StatementList', StatementList' -> .StatementStatementList', StatementList' -> ., Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, Statement -> .ReturnStatement, DeclarationStatement -> .TypeIDENTIFIER[=Expression];, Assignment -> .TypeIDENTIFIER=Expression;, Assignment -> .TypeIDENTIFIER;, Assignment -> .IDENTIFIER=IDENTIFIER;, Assignment -> .IDENTIFIER=CONSTANT;, Input -> .read(IDENTIFIER);, Output -> .print(Term);, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//CONSTANT, Comment -> .##CONSTANT, ReturnStatement -> .returnIDENTIFIER;, ReturnStatement -> .returnCONSTANT;, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant]]
+STATE INDEX -> 82
+SYMBOL -> ;
+INITIAL STATE -> 58
+( 58, ; ) -> 82
+STATE -> REDUCE_REDUCE_CONFLICT : [DeclarationStatement -> TypeIDENTIFIER=Expression;., Assignment -> TypeIDENTIFIER=Expression;.]
+STATE INDEX -> 82
+SYMBOL -> ;
+INITIAL STATE -> 58
+( 58, ; ) -> 82
+STATE -> REDUCE_REDUCE_CONFLICT : [DeclarationStatement -> TypeIDENTIFIER=Expression;., Assignment -> TypeIDENTIFIER=Expression;.]
+STATE INDEX -> 58
+SYMBOL -> Term
+INITIAL STATE -> 43
+( 43, Term ) -> 58
+STATE -> SHIFT_REDUCE_CONFLICT : [DeclarationStatement -> TypeIDENTIFIER=Term.;, Expression -> Term.]
+STATE INDEX -> 43
+SYMBOL -> ;
+INITIAL STATE -> 31
+( 31, ; ) -> 43
+STATE -> REDUCE_REDUCE_CONFLICT : [DeclarationStatement -> TypeIDENTIFIER;., Assignment -> TypeIDENTIFIER;.]
+STATE INDEX -> 46
+SYMBOL -> IDENTIFIER
+INITIAL STATE -> 32
+( 32, IDENTIFIER ) -> 46
+STATE -> SHIFT_REDUCE_CONFLICT : [Term -> IDENTIFIER., Assignment -> IDENTIFIER=IDENTIFIER.;]
+STATE INDEX -> 45
+SYMBOL -> Term
+INITIAL STATE -> 32
+( 32, Term ) -> 45
+STATE -> SHIFT_REDUCE_CONFLICT : [Expression -> Term., Assignment -> IDENTIFIER=Term.;]
+STATE INDEX -> 45
+SYMBOL -> Term
+INITIAL STATE -> 32
+( 32, Term ) -> 45
+STATE -> SHIFT_REDUCE_CONFLICT : [Expression -> Term., Term -> Term.+Factor, Term -> Term.-Factor, Assignment -> IDENTIFIER=Term.;]
+STATE INDEX -> 45
+SYMBOL -> Term
+INITIAL STATE -> 32
+( 32, Term ) -> 45
+STATE -> SHIFT_REDUCE_CONFLICT : [Expression -> Term., Term -> Term.+Factor, Term -> Term.-Factor]
+STATE INDEX -> 45
+SYMBOL -> Term
+INITIAL STATE -> 32
+( 32, Term ) -> 45
+STATE -> SHIFT_REDUCE_CONFLICT : [Expression -> Term., Term -> Term.+Factor, Term -> Term.-Factor]
+STATE INDEX -> 5
+SYMBOL -> Statement
+INITIAL STATE -> 3
+( 3, Statement ) -> 5
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList -> Statement.StatementList', StatementList' -> .StatementStatementList', StatementList' -> ., Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, Statement -> .ReturnStatement, DeclarationStatement -> .TypeIDENTIFIER;, Assignment -> .IDENTIFIER=Term;, Input -> .read(IDENTIFIER);, Output -> .print(Term);, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression)Program, Comment -> .//CONSTANT, Comment -> .##CONSTANT, ReturnStatement -> .returnIDENTIFIER;, ReturnStatement -> .returnCONSTANT;, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant]]
+STATE INDEX -> 27
+SYMBOL -> Statement
+INITIAL STATE -> 3
+( 3, Statement ) -> 27
+STATE -> SHIFT_REDUCE_CONFLICT : [StatementList' -> Statement.StatementList', StatementList' -> .StatementStatementList', StatementList' -> .Statement, Statement -> .DeclarationStatement, Statement -> .Assignment, Statement -> .Input, Statement -> .Output, Statement -> .Conditional, Statement -> .Loop, Statement -> .Comment, Statement -> .ReturnStatement, DeclarationStatement -> .TypeIDENTIFIER;, Assignment -> .IDENTIFIER=Term;, Input -> .read(IDENTIFIER);, Output -> .print(Term);, Conditional -> .if(Expression)ProgramelseProgram, Loop -> .while(Expression){Program}, Comment -> .//CONSTANT, Comment -> .##CONSTANT, ReturnStatement -> .returnIDENTIFIER;, ReturnStatement -> .returnCONSTANT;, Type -> .int, Type -> .bool, Type -> .char, Type -> .string, Type -> .array<Type>IDENTIFIER[IntConstant], StatementList' -> Statement.]

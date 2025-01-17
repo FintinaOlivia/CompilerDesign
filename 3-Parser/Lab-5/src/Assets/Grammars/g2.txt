@@ -1,23 +1,24 @@
-N = Program, Statement, StatementList, DeclarationStatement, Assignment, Input, Output, Conditional, Loop, Comment, Type, Expression, Term,  BoolConstant, Operator,NonZeroDigit, Digit
-T = int, bool, char, string, array, <, >, [, ], read, print, if, else, while, //, ##, Identifier, IntConstant, CharConstant StringConst,, +, -, *, /, %, ==, !=, <, <=, >, >=, =, &&, ||, {, }, (, ), ;, ,
+N = Program,Statement,Reassignment,StatementList,elseProgram,ReturnStatement,CompoundStatement,StatementList',Expression',DeclarationStatement,Assignment,Input,Output,Conditional,Loop,Comment,Type,Expression,Term,IntConstant,BoolConstant,Operator,NonZeroDigit,Digit
+T = IDENTIFIER,CONSTANT,int,bool,char,string,array,<,>,[,],read,print,if,else,while,//,##,IntConstant,CharConstant,CONSTANT,+,-,*,/,%,==,!=,<,<=,>,>=,=,&&,||,{,},(,),;,|,
 P =
 start
-Program->Statement|StatementList
-Statement->DeclarationStatement|Assignment|Input|Output|Conditional|Loop|Comment
-StatementList->Statement|Statement ; StatementList
-DeclarationStatement->Type Identifier [ = Expression ] ;
-Assignment->Type Identifier = Expression ;
-Input->read ( Identifier { , Identifier } ) ;
-Output->print ( Expression { , Expression } ) ;
-Conditional->if ( Expression ) { Program } [ else { Program } ]
+Program->StatementList
+Statement->DeclarationStatement|Assignment|Input|Output|Conditional|Loop|Comment|ReturnStatement
+StatementList->Statement StatementList'
+StatementList'->Statement StatementList' | ;
+DeclarationStatement->Type IDENTIFIER ;
+Assignment-> IDENTIFIER = Term ;
+Input->read ( IDENTIFIER ) ;
+Output->print ( Term ) ;
+Conditional->if ( Expression ) Program elseProgram
+elseProgram->else Program ; | ;
 Loop->while ( Expression ) { Program }
-Comment->//{string}| ##{string}
-Type->int|bool|char|string|array<Type>[IntConstant]
-Expression->Term { Operator Term }
-Term->Identifier|IntConstant|StringConst|BoolConstant|( Expression )
-IntConstant->+(NonZeroDigit{Digit})|-(NonZeroDigit{Digit})| 0
-BoolConstant->true|false
-Operator->+|-|*|/|%|==|!=|<|<=|>|>=|=|&&|||
+Comment->// CONSTANT | ## CONSTANT
+ReturnStatement-> return IDENTIFIER ; | return CONSTANT ;
+Type->int|bool|char|string|array < Type > IDENTIFIER [ IntConstant ]
+Expression-> Term | Expression Operator Term
+Term->IDENTIFIER | CONSTANT | ( Expression )
+Operator->+|-|*|/|%|==|!=|<|<=|>|>=|=|&&||
 NonZeroDigit->1|2|3|4|5|6|7|8|9
 Digit->0|1|2|3|4|5|6|7|8|9
 end

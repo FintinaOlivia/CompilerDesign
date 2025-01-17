@@ -1,10 +1,15 @@
-int max ( int firstNumber, int secondNumber, int thirdNumber ) {
-    if ( firstNumber <= thirdNumber && secondNumber <= thirdNumber ) {
-        print( "The maximum number is the first one.");
-        return thirdNumber;
-    } else if (firstNumber <= secondNumber && thirdNumber <= secondNumber){
-        return secondNumber;
-    } else {
-        return firstNumber;
-    }
-}
+    int a ;
+    int b ;
+    int c ;
+
+    read ( a ) ;
+    read ( b ) ;
+
+    while ( b != 0 )
+   {
+       c = ( a % b ) ;
+       a = b ;
+       b = c ; ;
+   }
+
+    print ( a ) ; ;

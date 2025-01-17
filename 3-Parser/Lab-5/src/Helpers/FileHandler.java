@@ -1,13 +1,16 @@
 package Helpers;
 
+import DataStructures.CanonicalCollection;
 import DataStructures.HashTable;
+import DataStructures.Pair;
 
 import java.io.*;
+import java.util.Map;
 import java.util.Scanner;
 
 public class FileHandler {
     public static void populateSymbolTable(String filename, HashTable table) {
-        try (BufferedReader reader = new BufferedReader(new java.io.FileReader(filename))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 table.add(line);
@@ -33,6 +36,26 @@ public class FileHandler {
         }
         catch (FileNotFoundException e) {
             e.printStackTrace();
+        }
+    }
+
+    public static void writeLineToFile(String file, String line) throws IOException {
+        FileWriter fileWriter = new FileWriter(file, true);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        bufferedWriter.write(line);
+        bufferedWriter.newLine();
+        bufferedWriter.close();
+    }
+
+    public static void printCanonicalCollection(CanonicalCollection canonicalCollection) {
+        System.out.println("States:");
+        for (int i = 0; i < canonicalCollection.getStates().size(); i++) {
+            System.out.println(i + " " + canonicalCollection.getStates().get(i));
+        }
+
+        System.out.println("\nState.State transitions:");
+        for (Map.Entry<Pair<Integer, String>, Integer> entry : canonicalCollection.getAdjacencyList().entrySet()) {
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
         }
     }
 }
