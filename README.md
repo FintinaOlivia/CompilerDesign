@@ -9,14 +9,3 @@ Welcome to this (2024-2025) semester's FLCD lab work! Make sure to follow the ru
 ### Problem statements
 
 - https://moodle.cs.ubbcluj.ro/moodle/course/view.php?id=91
-
-### Repository structure based on lab structure
-
-- **1-Mini-Language-And-Scanner**: Weeks 1, 2, 3, 4, 5
-- **2-Finite-Automata**: Weeks 6, 7
-- **3-Parser**: Weeks 8, 9, 10, 11
-- **4-Lex-Yacc**: Weeks 12, 13
-
----
-
-> **TODO**: First commit - a file with your programming language of choice as the name (ex. python.txt)
